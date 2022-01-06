@@ -4,6 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5BC9FF"
     tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:hint="@string/hint_login_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="@string/hint_login_password"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_username" />
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password">
+
+        <Button
+            android:id="@+id/login_cancel_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="annuler"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/login_validate_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="connexion"
+            android:textColor="@android:color/white"
+            android:background="#FB8C00" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
