@@ -5,8 +5,16 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Nom d\'Utilisateur</string>
+    <string name="nav_header_subtitle">Poste chez Monzari</string>
     <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_item_dashboard">Tableau de Bord</string>
+    <string name="nav_item_command">Commande</string>
+    <string name="nav_item_approv">Approvisionnement</string>
+    <string name="nav_item_production">Production</string>
+    <string name="nav_item_catalog">Catalogue</string>
+    <string name="nav_version_desc">version 1.0</string>
+    <string name="nav_item_about">A propos</string>
+    <string name="nav_item_logout">Déconnexion</string>
 
 </resources>

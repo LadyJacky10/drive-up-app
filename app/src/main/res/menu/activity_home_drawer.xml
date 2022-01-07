@@ -6,35 +6,35 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_dashboard"
-            android:title="Tableau de Bord" />
+            android:title="@string/nav_item_dashboard" />
         <item
             android:id="@+id/nav_cmd"
-            android:title="Commande" />
+            android:title="@string/nav_item_command" />
         <item
             android:id="@+id/nav_appro"
-            android:title="Approvisionnement" />
+            android:title="@string/nav_item_approv" />
         <item
             android:id="@+id/nav_production"
-            android:title="Production" />
+            android:title="@string/nav_item_production" />
     </group>
     <group>
-        <item android:title=" ">
+        <item android:title="">
             <menu>
                 <item
                     android:id="@+id/nav_catalog"
-                    android:title="Catalogue" />
+                    android:title="@string/nav_item_catalog" />
             </menu>
         </item>
     </group>
     <group  android:checkableBehavior="single">
-        <item android:title="version 1.0">
+        <item android:title="@string/nav_version_desc">
             <menu>
                 <item
                     android:id="@+id/nav_about"
-                    android:title="A propos" />
+                    android:title="@string/nav_item_about" />
                 <item
                     android:id="@+id/nav_logout"
-                    android:title="Déconnexion" />
+                    android:title="@string/nav_item_logout" />
             </menu>
         </item>
     </group>
