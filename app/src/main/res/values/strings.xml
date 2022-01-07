@@ -16,5 +16,7 @@
     <string name="nav_version_desc">version 1.0</string>
     <string name="nav_item_about">A propos</string>
     <string name="nav_item_logout">Déconnexion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

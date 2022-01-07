@@ -40,9 +40,11 @@ public class LoginActivity extends AppCompatActivity {
                 String password = lg_password.getText().toString();
                 if (username == "MONKAMBULA ANNE" && password == "12345678"){
                     // On prépare une Intention d'ouverture de la fenêtre Accueil
-                    //Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                    //startActivity(intent); // On lance l'interface Accueil grâce à l'intention préparée
-                    //finish();
+                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                    intent.putExtra("name", "MONKAMBULA ANNE");
+                    intent.putExtra("role", "Chef de projet");
+                    startActivity(intent); // On lance l'interface Accueil grâce à l'intention préparée
+                    finish();
                 }else{
                     Toast.makeText(LoginActivity.this, "Nom d\'utilisateur ou mot de passe incorrect", Toast.LENGTH_SHORT)
                             .show();
